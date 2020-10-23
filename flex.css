@@ -1,0 +1,63 @@
+section{
+    display: flex;   
+}
+ 
+body {
+    font-family: 'Mukta Malar', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 18px;
+    padding-top: 3em;
+}
+
+img {
+    max-width: 100%;
+}
+    
+footer {
+    clear: both;
+    background: #476A6F;
+    color: white;
+    padding: 1em;
+}
+  
+  
+main {
+    background: #E4FDE1;  
+    color: #333;
+    padding: 1em;
+    width: 50%;
+    background-color: gainsboro;
+}
+  
+nav {    
+    width: 25%;
+    background: #4D7C8A;
+    color: rgba(white, .9);
+    padding: 1em;
+}
+
+aside {
+    background: #4D7C8A;
+    color: rgba(white, .9);
+    padding: 1em;
+    width: 25%;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+@media screen and (max-width: 700px){
+    section {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    nav, aside,main {
+        width: auto;
+    }
+}  
