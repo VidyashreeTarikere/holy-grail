@@ -1,7 +1,5 @@
 body {
-    max-width: 900px;
-    margin: 2em auto;
-    font: .9em/1.2 Arial, Helvetica, sans-serif;
+    font: Arial, Helvetica, sans-serif;
 }
 
 .container {
